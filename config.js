@@ -16,7 +16,7 @@ global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "94740886370";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "94769974495";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
@@ -30,12 +30,12 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["94740886370"];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["94740886370"];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["94740886370"];
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["94769974495"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["94769974495"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["94769974495"];
 global.OwnerName = process.env.OWNER_NAME || "AROSHA";
 global.BotName = process.env.BOT_NAME || "BUDDY";
-global.packname = process.env.PACK_NAME || "A17 Bot";
+global.packname = process.env.PACK_NAME || "BUDDY Bot";
 global.author = "By: Kai";
 global.BotSourceCode = "https://github.com/Kai0071/A17";
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
